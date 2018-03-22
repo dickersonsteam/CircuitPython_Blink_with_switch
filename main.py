@@ -8,7 +8,7 @@ import board
 led = DigitalInOut(board.D6)
 led.direction = Direction.OUTPUT
 
-switch = DigitalInOut(board.D9). # use pin D9
+switch = DigitalInOut(board.D9) # use pin D9
 switch.direction = Direction.INPUT
 switch.pull = Pull.DOWN
 
